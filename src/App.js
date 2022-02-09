@@ -1,19 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
-import Types from "./First.js" 
-import MyComponent from "./Second.js"
-import StatefulComponent from './Fourth';
-import My from './Fifth';
+import CheckUserAge from './One';
+import MyComponent from './Two';
+import MagicEightBall from './Three';
+import MyApp from './Five';
+import MyToDoList from './Six';
+import MyyComponent from './Four';
 
 function App() {
   return (
     <div className="App">
-     <div>
-    <Types/>
-    <MyComponent/>
-    <StatefulComponent/>
-    <My/>
-     </div>
+      <CheckUserAge/>
+      <MyComponent/>
+      <MagicEightBall/>
+      <MyyComponent/>
+      <MyApp/>
+      <MyToDoList/>
     </div>
   );
 }
